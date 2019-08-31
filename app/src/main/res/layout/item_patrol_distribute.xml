@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="姓名：吴静"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+
+            />
+        <TextView
+            android:id="@+id/tv_alarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="警号：015176"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/tv_name"
+            android:layout_marginTop="5dp"
+            />
+        <TextView
+            android:id="@+id/tv_depart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="所属单位：汉口火车站警务站"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/tv_alarm"
+            android:layout_marginTop="5dp" />
+        <TextView
+            android:id="@+id/tv_trace"
+            android:layout_width="60dp"
+            android:layout_height="32dp"
+            android:text="轨迹"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/shape_radius_3_ceb183"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:layout_marginRight="10dp"/>
+    </RelativeLayout>
+</LinearLayout>
